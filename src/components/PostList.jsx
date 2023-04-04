@@ -18,6 +18,7 @@ const PostList = ({posts, title, remove}) => {
             <h1 style={{textAlign: 'center'}}>
            {title}</h1>
        
+
             <TransitionGroup>
                 {posts.map((post, index) => 
                 <CSSTransition

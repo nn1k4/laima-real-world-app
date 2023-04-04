@@ -5,7 +5,7 @@ import MyInput from './UI/input/MyInput';
 const PostFilter = ({filter, setFilter}) => {
     return (
         <div>
-            
+        
 
              <MyInput 
                 value={filter.query}
@@ -14,10 +14,10 @@ const PostFilter = ({filter, setFilter}) => {
                 placeholder="Search...">
              </MyInput>
 
-        
+           
             <MySelect
               value={filter.sort}
-     
+         
             onChange={selectedSort => setFilter({...filter, sort: selectedSort})}
               defaultValue="Sorting"
               options={[

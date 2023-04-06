@@ -8,7 +8,7 @@ const PostList = ({posts, title, remove}) => {
 
         return (
             <h1 style={{textAlign: 'center'}}>
-              Posts not found!
+              Posts not found!!
             </h1>
         )
     }
@@ -19,6 +19,7 @@ const PostList = ({posts, title, remove}) => {
            {title}</h1>
        
 
+   
             <TransitionGroup>
                 {posts.map((post, index) => 
                 <CSSTransition

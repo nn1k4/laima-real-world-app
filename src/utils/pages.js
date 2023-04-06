@@ -3,7 +3,8 @@ export const getPageCount = (totalCount, limit) => {
 
 }
 
-// TODO 
+
+
 export const getPagesArray = (totalPages) => {
     let result = [];
     for (let i = 0; i < totalPages; i++ ){
